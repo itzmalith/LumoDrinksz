@@ -14,6 +14,8 @@
 		8052C8552A1D21B2000A7D7C /* LumoDrinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C8542A1D21B2000A7D7C /* LumoDrinTests.swift */; };
 		8052C85F2A1D21B2000A7D7C /* LumoDrinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C85E2A1D21B2000A7D7C /* LumoDrinUITests.swift */; };
 		8052C8612A1D21B2000A7D7C /* LumoDrinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C8602A1D21B2000A7D7C /* LumoDrinUITestsLaunchTests.swift */; };
+		806F60662A1D4346001B4B08 /* Aclonica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 806F60652A1D4346001B4B08 /* Aclonica-Regular.ttf */; };
+		806F60692A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 806F60682A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		8052C85A2A1D21B2000A7D7C /* LumoDrinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumoDrinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8052C85E2A1D21B2000A7D7C /* LumoDrinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumoDrinUITests.swift; sourceTree = "<group>"; };
 		8052C8602A1D21B2000A7D7C /* LumoDrinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumoDrinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		806F60652A1D4346001B4B08 /* Aclonica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aclonica-Regular.ttf"; sourceTree = "<group>"; };
+		806F60672A1D45B3001B4B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		806F60682A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Akshar-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,8 @@
 		8052C8422A1D21B1000A7D7C /* LumoDrin */ = {
 			isa = PBXGroup;
 			children = (
+				806F60672A1D45B3001B4B08 /* Info.plist */,
+				806F60642A1D42F5001B4B08 /* Fonts */,
 				8052C8432A1D21B1000A7D7C /* LumoDrinApp.swift */,
 				8052C8452A1D21B1000A7D7C /* ContentView.swift */,
 				8052C8472A1D21B2000A7D7C /* Assets.xcassets */,
@@ -125,6 +132,15 @@
 				8052C8602A1D21B2000A7D7C /* LumoDrinUITestsLaunchTests.swift */,
 			);
 			path = LumoDrinUITests;
+			sourceTree = "<group>";
+		};
+		806F60642A1D42F5001B4B08 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				806F60682A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf */,
+				806F60652A1D4346001B4B08 /* Aclonica-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806F60662A1D4346001B4B08 /* Aclonica-Regular.ttf in Resources */,
+				806F60692A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf in Resources */,
 				8052C84B2A1D21B2000A7D7C /* Preview Assets.xcassets in Resources */,
 				8052C8482A1D21B2000A7D7C /* Assets.xcassets in Resources */,
 			);
@@ -420,6 +438,7 @@
 				DEVELOPMENT_TEAM = Y728PN6772;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LumoDrin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +468,7 @@
 				DEVELOPMENT_TEAM = Y728PN6772;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LumoDrin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -18,15 +18,15 @@ struct ContentView: View {
                 .foregroundColor(Color(hex: "BB9200"))
             
             Text("Lumo Drinks")
-                .font(.largeTitle)
-                
+                .font(.custom(FontsManager.Aclonica.regular, size:35))
                 .fontWeight(.black)
                 .foregroundColor(Color(hex: "D18A00")).offset(y:5)
             
             Button(action: {
              
             }) {
-                Text("Get started")
+                Text("GET STARTED")
+                    .font(.custom(FontsManager.Akshar.regular, size:15))
                     .foregroundColor(.white)
                     .frame(width: 202, height: 49)
                     .background(
@@ -37,7 +37,7 @@ struct ContentView: View {
                                     .stroke(Color.black, lineWidth: 1)
                                     .shadow(color: Color.black.opacity(0.5), radius: 4, x: 0, y: 2)
                             )
-                    ) .offset(y: 480)
+                    ) .offset(y: 470)
             }
             
             Spacer()
@@ -65,6 +65,16 @@ extension Color {
         self.init(red: r, green: g, blue: b)
     }
 }
+
+struct FontsManager{
+    struct Aclonica {
+        static let regular = "Aclonica-Regular"
+    }
+    struct Akshar{
+        static let regular = "Akshar-VariableFont_wght"
+    }
+}
+
 
 
 
