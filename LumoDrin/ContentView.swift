@@ -15,13 +15,13 @@ struct ContentView: View {
             Text("Hi there, welcome to")
                 .font(.subheadline)
                 .fontWeight(.semibold)
-                .foregroundColor(.yellow)
+                .foregroundColor(Color(hex: "BB9200"))
             
             Text("Lumo Drinks")
                 .font(.largeTitle)
                 
                 .fontWeight(.black)
-                .foregroundColor(.yellow).offset(y:5)
+                .foregroundColor(Color(hex: "D18A00")).offset(y:5)
             
             Button(action: {
              
