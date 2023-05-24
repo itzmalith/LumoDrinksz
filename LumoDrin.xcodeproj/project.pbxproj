@@ -108,7 +108,7 @@
 				806F60672A1D45B3001B4B08 /* Info.plist */,
 				8052C8432A1D21B1000A7D7C /* LumoDrinApp.swift */,
 				8052C8452A1D21B1000A7D7C /* ContentView.swift */,
-				80AD057B2A1DD74F009BC965 /* ProductPage.swift */,
+				80AD05842A1E2885009BC965 /* Views */,
 				80AD05802A1DED2F009BC965 /* Components */,
 				80AD057D2A1DE7BC009BC965 /* Models */,
 				8052C8472A1D21B2000A7D7C /* Assets.xcassets */,
@@ -166,6 +166,14 @@
 				80AD05812A1DED97009BC965 /* ProductCard.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		80AD05842A1E2885009BC965 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80AD057B2A1DD74F009BC965 /* ProductPage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

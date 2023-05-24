@@ -20,6 +20,9 @@ struct ProductCard: View {
                     .scaledToFit()
                 VStack(alignment: .leading){
                     Text(product.name)
+                        .font(.custom(FontsManager.Aclonica.regular, size:15))
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color(hex: "800000"))
                     Text("Rs.\(product.price)").font(.caption)
                     
                 }
@@ -37,7 +40,7 @@ struct ProductCard: View {
                 
             } label:{
             Image(systemName: "plus")
-                    .font(.system(size: 32))
+                    .font(.system(size: 45))
                     .foregroundColor(Color(hex: "#885A00"))
                     .offset(y:-10)
                     .padding(0.5)
