@@ -26,9 +26,9 @@ struct ContentView: View {
              
             }) {
                 Text("GET STARTED")
-                    .font(.custom(FontsManager.Akshar.regular, size:15))
                     .foregroundColor(.white)
                     .frame(width: 202, height: 49)
+                    .font(.custom(FontsManager.Akshar.regular, size:16))
                     .background(
                         RoundedRectangle(cornerRadius: 10)
                             .fill(Color(hex: "#885A00")) // Set the background color using 
