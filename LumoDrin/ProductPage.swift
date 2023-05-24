@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ProductPage: View {
     var body: some View {
-        ZStack(alignment: .bottom){
-            
-        }
+       Text("h")
     }
 }
 

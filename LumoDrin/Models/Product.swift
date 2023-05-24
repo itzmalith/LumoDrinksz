@@ -14,7 +14,7 @@ struct Product: Identifiable {
     var price : Int
 }
 
-var productList = [Product(id:  UUID(), name: "Bushmills Black Bush", image: "drink1", price: 12900),
+var productList = [Product(id:  UUID(), name: "Bushmills Black", image: "drink1", price: 12900),
                    Product(id: UUID(), name: "Martell Cognac VS", image: "drink2", price: 27500),
                    Product(id: UUID(), name: "Beefeater Gin", image: "drink3", price: 13600),
                    Product(id: UUID(), name: "Jameson Irish Whiskey", image: "drink4", price: 9350),
