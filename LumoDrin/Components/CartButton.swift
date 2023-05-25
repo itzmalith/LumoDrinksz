@@ -12,6 +12,7 @@ struct CartButton: View {
     var body: some View {
         ZStack(alignment: .topTrailing){
             Image(systemName: "bag")
+                .foregroundColor(Color(hex: "#800000"))
                 .offset(x:-5)
                 .padding(.top , 6)
                 

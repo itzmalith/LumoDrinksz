@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8019B6EA2A200395006C94A1 /* myBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8019B6E92A200395006C94A1 /* myBag.swift */; };
 		8052C8442A1D21B1000A7D7C /* LumoDrinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C8432A1D21B1000A7D7C /* LumoDrinApp.swift */; };
 		8052C8462A1D21B1000A7D7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C8452A1D21B1000A7D7C /* ContentView.swift */; };
 		8052C8482A1D21B2000A7D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8052C8472A1D21B2000A7D7C /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8019B6E92A200395006C94A1 /* myBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBag.swift; sourceTree = "<group>"; };
 		8052C8402A1D21B1000A7D7C /* LumoDrin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumoDrin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8052C8432A1D21B1000A7D7C /* LumoDrinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumoDrinApp.swift; sourceTree = "<group>"; };
 		8052C8452A1D21B1000A7D7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 			children = (
 				806F60672A1D45B3001B4B08 /* Info.plist */,
 				8052C8432A1D21B1000A7D7C /* LumoDrinApp.swift */,
-				8052C8452A1D21B1000A7D7C /* ContentView.swift */,
 				80AD05842A1E2885009BC965 /* Views */,
 				80AD05802A1DED2F009BC965 /* Components */,
 				80AD057D2A1DE7BC009BC965 /* Models */,
@@ -174,7 +175,9 @@
 		80AD05842A1E2885009BC965 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8052C8452A1D21B1000A7D7C /* ContentView.swift */,
 				80AD057B2A1DD74F009BC965 /* ProductPage.swift */,
+				8019B6E92A200395006C94A1 /* myBag.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80AD057C2A1DD74F009BC965 /* ProductPage.swift in Sources */,
+				8019B6EA2A200395006C94A1 /* myBag.swift in Sources */,
 				80AD057F2A1DE7DD009BC965 /* Product.swift in Sources */,
 				8052C8462A1D21B1000A7D7C /* ContentView.swift in Sources */,
 				80AD05822A1DED97009BC965 /* ProductCard.swift in Sources */,

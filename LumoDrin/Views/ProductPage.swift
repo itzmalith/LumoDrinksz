@@ -23,6 +23,12 @@ struct ProductPage: View {
                 .padding()
             }
             .navigationTitle(Text("Lumo Drinks"))
+            .toolbar {
+                NavigationLink {
+                    myBag()
+                    
+                } label: { CartButton(numberOfItems: 2)}
+            }
             
            
         }
