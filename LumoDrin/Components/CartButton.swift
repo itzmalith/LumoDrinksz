@@ -8,13 +8,31 @@
 import SwiftUI
 
 struct CartButton: View {
+    var numberOfItems:Int
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .topTrailing){
+            Image(systemName: "bag")
+                .offset(x:-5)
+                .padding(.top , 6)
+                
+                
+            if numberOfItems > 0 {
+                Text("\(numberOfItems)")
+                    .font(.caption2).bold()
+                    .foregroundColor(.white)
+                    .frame(width: 15 ,height: 15)
+                    
+                    .background(Color(hue: 1.0, saturation: 0.943, brightness: 0.701))
+                    .cornerRadius(50)
+                
+            }
+            
+        }
     }
 }
 
 struct CartButton_Previews: PreviewProvider {
     static var previews: some View {
-        CartButton()
+        CartButton(numberOfItems: 5)
     }
 }
