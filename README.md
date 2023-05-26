@@ -3,7 +3,7 @@
 ios application for a liqure store
 
 
-![appstore](https://github.com/itzmalith/LumoDrinksz/assets/84328437/019e1fab-8365-4def-b6c3-e260292aefb3)
+
 ![Screenshot 2023-05-26 at 13 07 59](https://github.com/itzmalith/LumoDrinksz/assets/84328437/cae64fef-c892-4dff-93c0-658b4d1f3854)
 ![Screenshot 2023-05-26 at 13 07 41](https://github.com/itzmalith/LumoDrinksz/assets/84328437/055dde7f-9240-4073-93d4-cfd6364aa151)
 ![Screenshot 2023-05-26 at 13 04 06](https://github.com/itzmalith/LumoDrinksz/assets/84328437/4e6b1eb6-f8c9-4d90-9f64-52696c241d84)
