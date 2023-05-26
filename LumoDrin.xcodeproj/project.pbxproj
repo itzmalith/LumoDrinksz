@@ -15,6 +15,10 @@
 		8052C8552A1D21B2000A7D7C /* LumoDrinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C8542A1D21B2000A7D7C /* LumoDrinTests.swift */; };
 		8052C85F2A1D21B2000A7D7C /* LumoDrinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C85E2A1D21B2000A7D7C /* LumoDrinUITests.swift */; };
 		8052C8612A1D21B2000A7D7C /* LumoDrinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052C8602A1D21B2000A7D7C /* LumoDrinUITestsLaunchTests.swift */; };
+		8061801C2A2076B6009728F3 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061801B2A2076B6009728F3 /* CartManager.swift */; };
+		8061801E2A207D8E009728F3 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061801D2A207D8E009728F3 /* ProductRow.swift */; };
+		806180202A208D86009728F3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061801F2A208D86009728F3 /* Login.swift */; };
+		806180222A208DC2009728F3 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806180212A208DC2009728F3 /* Register.swift */; };
 		806F60662A1D4346001B4B08 /* Aclonica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 806F60652A1D4346001B4B08 /* Aclonica-Regular.ttf */; };
 		806F60692A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 806F60682A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf */; };
 		80AD057C2A1DD74F009BC965 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD057B2A1DD74F009BC965 /* ProductPage.swift */; };
@@ -52,6 +56,10 @@
 		8052C85A2A1D21B2000A7D7C /* LumoDrinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumoDrinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8052C85E2A1D21B2000A7D7C /* LumoDrinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumoDrinUITests.swift; sourceTree = "<group>"; };
 		8052C8602A1D21B2000A7D7C /* LumoDrinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumoDrinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8061801B2A2076B6009728F3 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		8061801D2A207D8E009728F3 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		8061801F2A208D86009728F3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		806180212A208DC2009728F3 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		806F60652A1D4346001B4B08 /* Aclonica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aclonica-Regular.ttf"; sourceTree = "<group>"; };
 		806F60672A1D45B3001B4B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		806F60682A1D4758001B4B08 /* Akshar-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Akshar-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -124,6 +132,7 @@
 		8052C8492A1D21B2000A7D7C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				8061801B2A2076B6009728F3 /* CartManager.swift */,
 				8052C84A2A1D21B2000A7D7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -168,6 +177,7 @@
 			children = (
 				80AD05812A1DED97009BC965 /* ProductCard.swift */,
 				80E0E7682A1FBD49002CB2FB /* CartButton.swift */,
+				8061801D2A207D8E009728F3 /* ProductRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -176,6 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				8052C8452A1D21B1000A7D7C /* ContentView.swift */,
+				8061801F2A208D86009728F3 /* Login.swift */,
+				806180212A208DC2009728F3 /* Register.swift */,
 				80AD057B2A1DD74F009BC965 /* ProductPage.swift */,
 				8019B6E92A200395006C94A1 /* myBag.swift */,
 			);
@@ -315,12 +327,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				80AD057C2A1DD74F009BC965 /* ProductPage.swift in Sources */,
+				806180222A208DC2009728F3 /* Register.swift in Sources */,
+				806180202A208D86009728F3 /* Login.swift in Sources */,
+				8061801C2A2076B6009728F3 /* CartManager.swift in Sources */,
 				8019B6EA2A200395006C94A1 /* myBag.swift in Sources */,
 				80AD057F2A1DE7DD009BC965 /* Product.swift in Sources */,
 				8052C8462A1D21B1000A7D7C /* ContentView.swift in Sources */,
 				80AD05822A1DED97009BC965 /* ProductCard.swift in Sources */,
 				8052C8442A1D21B1000A7D7C /* LumoDrinApp.swift in Sources */,
 				80E0E7692A1FBD49002CB2FB /* CartButton.swift in Sources */,
+				8061801E2A207D8E009728F3 /* ProductRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

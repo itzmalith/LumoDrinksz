@@ -8,9 +8,33 @@
 import SwiftUI
 
 struct myBag: View {
+    @EnvironmentObject var cartManager : CartManager
     var body: some View {
         ScrollView {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            if cartManager.products.count>0 {
+                ForEach(cartManager.products,id: \.id){
+                    product in
+                    ProductRow(product :product)
+                    
+                }
+                
+                HStack{
+                    Text("Bill Amount :")
+                        .font(.custom(FontsManager.Aclonica.regular, size: 15))
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color(hex: "800000"))
+                    Spacer()
+                    Text("$\(cartManager.total)")
+                        .bold()
+                    
+                }
+                .padding()
+                
+            }else{
+                Text("No drinks in bag")
+                
+            }
+           
         }
         .navigationTitle(Text("My bag"))
         .padding(.top)
@@ -20,5 +44,6 @@ struct myBag: View {
 struct myBag_Previews: PreviewProvider {
     static var previews: some View {
         myBag()
+            .environmentObject(CartManager())
     }
 }
